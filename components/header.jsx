@@ -1,16 +1,14 @@
 import React from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import { Header } from "./components/Header"
 
-function App() {
+function Header() {
   return (
     <>
-    <Header/>
       <View style={Styles.container}>
-        <Text style={Styles.word}>hello world</Text>
+        <Text style={Styles.word}>Hi....I am header</Text>
       </View>
       <View style={Styles.container}>
-        <Text style={Styles.word}>my name is ajay </Text>
+        <Text style={Styles.word}>Hey... i am user supporting assistent </Text>
       </View>
     </>
   );
@@ -29,4 +27,4 @@ const Styles = StyleSheet.create({
   },
 });
 
-export default App;
+export default Header;
